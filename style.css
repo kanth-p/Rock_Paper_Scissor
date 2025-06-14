@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+    }
+.rockimg{
+    width: 100px;
+    height: 100px;
+    }
+        .papimg{
+            width: 100px;
+            height: 100px;
+        }
+        .scrimg{
+            width: 100px;
+            height: 100px;
+        }
+        .but{
+            margin-top: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .rockd,.paperd,.scissord{
+            margin: 10px;
+        }
+        .rockimg:hover{
+            border: 5px solid black;
+            border-radius: 50px;
+        }
+        .papimg:hover{
+            border: 5px solid black;
+            border-radius: 50px;
+        }
+        .scrimg:hover{
+            border: 5px solid black;
+            border-radius: 50px;
+        }
+        .scoreboard{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .you{
+            font-size: 30px;
+            margin-right: 20px;
+        }
+        .com{
+            font-size: 30px;
+            margin-left: 20px;
+        }
+        .msg-cont{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }#msg{
+            background-color: black;
+            color: white;
+            font-size: 30px;
+            padding: 5px 50px;
+            border-radius: 5px;
+        }
+        h1{
+            background-color: blueviolet;
+            padding: 10px;
+            color: white;
+        }
+        .main{
+            background-color:rgb(59, 213, 213);
+            border-radius: 10px;
+            border: 5px solid black;
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-left: 500px;
+        }
+        #reset{
+            background-color: green;
+            color: white;
+            font-size: 25px;
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        #reset:hover{
+            background-color: brown;
+        }
